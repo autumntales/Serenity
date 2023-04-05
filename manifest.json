@@ -1,0 +1,17 @@
+{
+    "name": "Serenity Extension",
+    "version": "0.0.1",
+    "description": "Number of triggers in each web page",
+    "manifest_version": 3,
+    "background":{
+      "service_worker": "serviceWorker.js"
+    },
+    "host_permissions": ["<all_urls>"],
+    "permissions": ["scripting", "storage"],
+    "options_ui":{
+      "page": "opt.html"
+    },
+    "action": {
+        "default_popup": "popup.html"
+      }
+  }
