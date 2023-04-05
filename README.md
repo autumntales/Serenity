@@ -19,9 +19,11 @@
 
      Click the Load unpacked button and select the extension directory
      Click on the extension’s action (toolbar icon); you should see a popup.
-    # Executing Extension
+   # Executing Extension
     Click on the extension icon in the toolbar
-    # Reference
+   # Reference
     [https://developer.chrome.com/]
+    
+    Various tutorials and public repositories.
     
     
