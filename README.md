@@ -22,7 +22,7 @@
    # Executing Extension
     Click on the extension icon in the toolbar
    # Reference
-    [https://developer.chrome.com/]
+    {https://developer.chrome.com/}
     
     Various tutorials and public repositories.
     
