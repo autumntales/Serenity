@@ -10,7 +10,8 @@ chrome.storage.sync.get({
     for (var i = 0; i < keywordsArray.length; i++) {
       numberoftrigger(keywordsArray[i]);
     }
-  
+        document.getElementById('counter').textContent = 'Number of trigger words: ' + counter;
+  }
     function numberoftrigger(obj) {
       for (var i = 0; i < allElements.length; i++) {
         if (allElements[i].innerText.toLowerCase().includes(obj.keyword.toLowerCase())) {
@@ -18,6 +19,5 @@ chrome.storage.sync.get({
         }
       }
     }
-  }
   
-  document.getElementById('counter').textContent = 'Number of trigger words: ' + counter;
+  
